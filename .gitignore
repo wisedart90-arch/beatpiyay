@@ -1,0 +1,45 @@
+# ==========================================
+#  BeatPiyay — .gitignore
+# ==========================================
+
+# SECRETS — ne JAMAIS committer
+.env
+.env.local
+.env.production
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+*.egg
+.pytest_cache/
+.mypy_cache/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+.parcel-cache/
+*.local
+
+# Uploads locaux (audio, images)
+backend/uploads/
+backend/tmp/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
